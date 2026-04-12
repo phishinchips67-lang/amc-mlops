@@ -1,0 +1,39 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+amc-env/
+venv/
+env/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Dataset files — tracked by DVC instead
+*.pkl
+*.bz2
+*.tar
+
+# Model weights — large files
+*.pt
+*.pth
+*.ckpt
+
+# MLflow local runs — tracked on DagsHub instead
+mlruns/
+
+# Kaggle credentials — never push this
+kaggle.json
+
+# Environment variable files
+.env
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
