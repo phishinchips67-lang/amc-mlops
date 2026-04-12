@@ -54,7 +54,7 @@ Where:
 - **f** — carrier frequency
 
 Together, I and Q form a complex baseband representation of the signal. Every sample
-in this project is a **(2, 128)** array — 2 rows (I and Q channels), each with 128
+in this project is a **(2, 128)** array of 2 rows (I and Q channels), each with 128
 time samples. This is the raw input to the neural network, with no feature engineering.
 
 ---
