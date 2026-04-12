@@ -26,7 +26,7 @@ instant classification with confidence scores.
 ## 📖 What is Automatic Modulation Classification?
 
 In any wireless communication system, the transmitter encodes information by modifying
-a carrier wave — a process called **modulation**. The receiver normally knows in advance
+a carrier wave, a process called **modulation**. The receiver normally knows in advance
 which modulation scheme is being used. But in many real-world scenarios, the receiver
 must figure it out automatically:
 
@@ -105,7 +105,7 @@ channel impairments including:
 **BPSK — Binary Phase Shift Keying**
 Encodes 1 bit per symbol by shifting the carrier phase between 0° and 180°.
 The signal lives entirely on the I axis. Used in GPS, deep space communications,
-and Wi-Fi (802.11b). Most robust modulation — works at very low SNR.
+and Wi-Fi (802.11b). Most robust modulation, works at very low SNR.
 
 **QPSK — Quadrature Phase Shift Keying**
 Encodes 2 bits per symbol using four phase states: 45°, 135°, 225°, 315°.
