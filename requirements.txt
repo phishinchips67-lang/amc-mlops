@@ -1,0 +1,9 @@
+mlflow
+dvc
+dvc-gdrive
+dagshub
+torch
+numpy
+matplotlib
+seaborn
+scikit-learn
