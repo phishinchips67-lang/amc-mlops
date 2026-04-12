@@ -1,0 +1,5 @@
+outs:
+- md5: 61bf35ac7f0b7d8843613453447ea290
+  size: 640919653
+  hash: md5
+  path: RML2016.10a_dict.pkl
