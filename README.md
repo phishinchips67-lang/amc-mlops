@@ -300,7 +300,9 @@ amc-mlops/
 ## 📚 References
 
 -T.J. O'Shea and J. Hoydis, "An Introduction to Deep Learning for the Physical Layer," IEEE Trans. Cognitive Commun. Netw., 2017
+
 -RadioML Dataset — DeepSig Inc. (opendata.deepsig.io)
+
 -PyTorch Documentation — pytorch.org
 
 ---
