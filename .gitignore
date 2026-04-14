@@ -8,3 +8,9 @@ archive.zip
 data/*.zip
 *.pt
 models/*.pt
+__pycache__/
+*.pyc
+archive.zip
+data/*.zip
+*.pt
+models/*.pt
