@@ -203,7 +203,7 @@ Output: (batch, 11)
 
 ### Accuracy vs SNR
 
-![Accuracy vs SNR](models/accuracy_vs_snr.png)
+![Accuracy vs SNR](https://raw.githubusercontent.com/phishinchips67-lang/amc-mlops/master/models/accuracy_vs_snr.png)
 
 The model learns a clear S-curve relationship with SNR — high accuracy on clean
 signals degrading gracefully as noise increases, consistent with information
@@ -211,7 +211,7 @@ theoretic limits of modulation distinguishability.
 
 ### Confusion Matrix at +18 dB SNR
 
-![Confusion Matrix](models/confusion_matrix_high_snr.png)
+![Confusion Matrix](https://raw.githubusercontent.com/phishinchips67-lang/amc-mlops/master/models/confusion_matrix_high_snr.png)
 
 At high SNR the model performs excellently on most classes. Notable confusions:
 - **QAM16 vs QAM64** — similar constellation structure, differ only in density
