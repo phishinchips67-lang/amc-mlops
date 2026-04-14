@@ -2,3 +2,9 @@ __pycache__/
 *.pyc
 archive.zip
 data/*.zip
+__pycache__/
+*.pyc
+archive.zip
+data/*.zip
+*.pt
+models/*.pt
