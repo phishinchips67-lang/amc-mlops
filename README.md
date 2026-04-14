@@ -278,16 +278,19 @@ python src/evaluate.py
 amc-mlops/
 ├── src/
 │   ├── dataset.py          # RadioML data loading, filtering by SNR
-│   ├── model.py            # AMCNet 1D CNN architecture
+│   ├── model.py            # AMCNet 1D CNN architecture (with BatchNorm)
 │   ├── train.py            # Training loop + MLflow logging
 │   └── evaluate.py         # Per-SNR evaluation + plot generation
 ├── models/
+│   ├── amc_all.pt          # Trained model weights (all SNR)
+│   ├── amc_0to18.pt        # High SNR model
+│   ├── amc_-20to-2.pt      # Low SNR model
 │   ├── accuracy_vs_snr.png
 │   └── confusion_matrix_high_snr.png
 ├── data/
 │   └── RML2016.10a_dict.pkl.dvc   # DVC pointer (not the actual data)
 ├── .dvc/config                     # DVC remote config
-├── dvc.yaml                        # Reproducible pipeline
+├── .gitignore
 ├── requirements.txt
 └── README.md
 ```
@@ -296,9 +299,9 @@ amc-mlops/
 
 ## 📚 References
 
-- T.J. O'Shea and J. Hoydis, "An Introduction to Deep Learning for the Physical Layer," IEEE Trans. Cognitive Commun. Netw., 2017
-- RadioML Dataset — DeepSig Inc. (opendata.deepsig.io)
-- FreeRTOS Mastering the FreeRTOS Real Time Kernel — R. Barry
+-T.J. O'Shea and J. Hoydis, "An Introduction to Deep Learning for the Physical Layer," IEEE Trans. Cognitive Commun. Netw., 2017
+-RadioML Dataset — DeepSig Inc. (opendata.deepsig.io)
+-PyTorch Documentation — pytorch.org
 
 ---
 
